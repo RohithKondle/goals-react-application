@@ -12,6 +12,8 @@ const CourseGoalList = props => {
           id={goal.id}
           onDelete={props.onDeleteItem}
         >
+
+          {/* my new test */}
           {goal.text}
         </CourseGoalItem>
       ))}
